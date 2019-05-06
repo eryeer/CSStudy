@@ -8,6 +8,10 @@ namespace DataType
 {
     class Program
     {
+        /// <summary>
+        /// 主方法
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         { 
             int a = 3;
@@ -19,7 +23,11 @@ namespace DataType
             string c = Console.ReadLine();
             Console.WriteLine("{0} world is {1}", hello, int.Parse(c) + a);
             Console.ReadLine();
+            WriteName("peter");
+        }
 
+        public static void WriteName(string Name) {
+            Console.WriteLine("hello {0}", Name);
         }
     }
 }
