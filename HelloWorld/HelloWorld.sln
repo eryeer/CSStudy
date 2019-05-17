@@ -7,11 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataType", "DataType\DataTy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloworld", "Helloworld\Helloworld.csproj", "{8404EC15-21CD-4B10-8E61-04FC688FB538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passParam", "带参数传递\passParam.csproj", "{3C615DB0-801E-441A-8B93-C22ABFF7558B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "passParam", "带参数传递\passParam.csproj", "{3C615DB0-801E-441A-8B93-C22ABFF7558B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClauseStructure", "ClauseStructure\ClauseStructure.csproj", "{5C702164-5FB0-433E-A6B5-FAD32A991568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClauseStructure", "ClauseStructure\ClauseStructure.csproj", "{5C702164-5FB0-433E-A6B5-FAD32A991568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamespaceExample", "NamespaceExample\NamespaceExample.csproj", "{F5D9E4CC-675E-40FE-903E-685C3E1FA91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamespaceExample", "NamespaceExample\NamespaceExample.csproj", "{F5D9E4CC-675E-40FE-903E-685C3E1FA91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOTest", "IOTest\IOTest.csproj", "{16AC9664-93C8-439D-B9A9-A69A9359565F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqStudy", "LinqStudy\LinqStudy.csproj", "{58306A8F-E021-4392-88A9-1B10AC1EADBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{F5D9E4CC-675E-40FE-903E-685C3E1FA91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5D9E4CC-675E-40FE-903E-685C3E1FA91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5D9E4CC-675E-40FE-903E-685C3E1FA91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AC9664-93C8-439D-B9A9-A69A9359565F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AC9664-93C8-439D-B9A9-A69A9359565F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AC9664-93C8-439D-B9A9-A69A9359565F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AC9664-93C8-439D-B9A9-A69A9359565F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58306A8F-E021-4392-88A9-1B10AC1EADBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58306A8F-E021-4392-88A9-1B10AC1EADBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58306A8F-E021-4392-88A9-1B10AC1EADBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58306A8F-E021-4392-88A9-1B10AC1EADBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
