@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net;
+using System.Runtime.InteropServices;
 
-namespace Helloworld
+namespace TestDll
 {
     class Program
     {
-        static void Main(string[] args)
+     static void Main()
         {
-            long VerificationGasLimited = 0_02000000;
-            Console.Write(VerificationGasLimited);
-
+            Console.WriteLine("Hello world");
             Console.ReadLine();
         }
+
+   
 
     }
 }

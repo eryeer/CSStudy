@@ -12,7 +12,18 @@ namespace SetGetTest
     {
         static void Main(string[] args)
         {
-            //Man man = new Man();
+
+            var mc = new MyCollection();
+            var ai = new AddressInfo
+            {
+                Add = "nyc",
+                Tel = "123"
+            };
+            mc.Add(ai);
+            Console.WriteLine(mc.Contains("nyc"));
+            Console.WriteLine(mc.Contains("123"));
+            Console.ReadLine();
+            /*//Man man = new Man();
             //man.Age = 10;
             //Console.WriteLine(man.Age);
             //Console.ReadLine();
@@ -36,7 +47,7 @@ namespace SetGetTest
             Console.WriteLine(t.GetType());
             Console.WriteLine(t.ToString());
             Console.WriteLine(typeof(string).ToString());
-            Console.ReadLine();
+            Console.ReadLine();*/
 
         }
     }
